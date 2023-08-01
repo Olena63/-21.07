@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Макет страницы</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+        }
+        .half-page {
+            width: 50%;
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+        .large-rectangle {
+            width: 100%;
+            height: calc(50% - 20px);
+            margin: 10px;
+            background-color: #dddddd;
+        }
+        .small-rectangle {
+            width: calc(50% - 20px);
+            height: 100px;
+            margin: 5px;
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="half-page">
+        <div class="large-rectangle"></div>
+        <div class="small-rectangle"></div>
+        <div class="small-rectangle"></div>
+        <div class="large-rectangle"></div>
+    </div>
+    <div class="half-page">
+        <div class="large-rectangle"></div>
+        <div class="small-rectangle"></div>
+        <div class="small-rectangle"></div>
+        <div class="large-rectangle"></div>
+    </div>
+</body>
+</html>
